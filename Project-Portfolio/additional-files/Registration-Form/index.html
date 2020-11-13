@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+</head>
+<body>
+    <h1>User Registration Form </h1>
+     <form name="details" action="./task2.html" method="POST"> 
+         <fieldset>
+             <legend>Personal Details</legend>
+             <br>
+       <label>Full Name:</label>
+        <input type="text">
+        <br>
+        <label>Email-ID:</label>
+        <input type="email">
+        <br>
+        <label>Phone number:</label>
+        <input type="number">
+        <br>
+        <label>Gender</label>
+        <select name="">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+        <br>
+        <label>Age:</label>
+        <input type="number">
+          </fieldset>
+          <fieldset>
+              <legend>Company Details</legend>
+              <p>Company:</p>      
+        <input type="radio" id='RE' name="Company">
+        <label for="RE">Raw Engineering</label>
+        <input type="radio" id='CS' name="Company">
+        <label for="CS">Contentstack</label>
+          </fieldset>
+        <button>Submit</button>
+        <button>Reset</button>
+    </form>
+    
+</body>
+</html>
